@@ -40,7 +40,7 @@
     <body>
         <main>
             <h1>Chill And Relax</h1>
-            <button onclick="copyIp(chill_and_relax.exaroton.me)">
+            <button onclick="copyIp('chill_and_relax.exaroton.me')">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -87,7 +87,7 @@
             </nav>
         </main>
         <script>
-            function copyIp() {
+            function copyIp(a) {
                 navigator.clipboard
                     .writeText(a)
                     .catch((error) => {
