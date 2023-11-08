@@ -4,11 +4,11 @@ var UnminedMapProperties = {
     maxZoom: 2,
     defaultZoom: 0,
     imageFormat: "jpeg",
-    minRegionX: -11,
-    minRegionZ: -6,
-    maxRegionX: 28,
-    maxRegionZ: 15,
-    worldName: "world_nether",
+    minRegionX: -6,
+    minRegionZ: -13,
+    maxRegionX: 6,
+    maxRegionZ: 10,
+    worldName: "world_the_end",
     background: "#363636",
     markers: new Array()
 }
